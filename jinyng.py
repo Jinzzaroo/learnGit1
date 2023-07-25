@@ -13,6 +13,9 @@ class Jinyng:
     def chat(conversation):
         return "I don't know that"
 
+    def sayHi(name):
+        return f"Hi,{name}! I am jinyng"
+
 if __name__ == "__main__":
 
     jinyng=Jinyng(25, "ChungBuk Univ.", "asd")
