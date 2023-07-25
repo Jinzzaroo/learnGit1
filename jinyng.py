@@ -10,6 +10,9 @@ class Jinyng:
               f"I graduated from {self.school}.\n"+
               f"I work for {self.company}")
 
+    def chat(conversation):
+        return "I don't know that"
+
 if __name__ == "__main__":
 
     jinyng=Jinyng(25, "ChungBuk Univ.", "asd")
